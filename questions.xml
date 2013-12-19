@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Dec 19 01:31:12 CST 2013 -->
+<questions>
+				<russian>
+								<question id='1'>
+												<questionText>
+																Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.
+												</questionText>
+												<choiceA>
+																this is choice a
+												</choiceA>
+												<choiceB>
+																this is choice b
+												</choiceB>
+												<choiceC>
+																this is choice c
+												</choiceC>
+												<choiceD>
+																this is choice d
+												</choiceD>
+												<choiceE>
+																this is choice e
+												</choiceE>
+								</question>
+								
+								<question id='2'>
+												<questionText>
+																2Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.
+												</questionText>
+												<choiceA>
+																2this is choice a
+												</choiceA>
+												<choiceB>
+																2this is choice b
+												</choiceB>
+												<choiceC>
+																2this is choice c
+												</choiceC>
+												<choiceD>
+																2this is choice d
+												</choiceD>
+												<choiceE>
+																2this is choice e
+												</choiceE>
+								</question>
+				</russian>
+				
+				<english>
+								<question id='1'>
+												<questionText>
+																This is first question of english
+												</questionText>
+												<choiceA>
+																this is choice a
+												</choiceA>
+												<choiceB>
+																this is choice b
+												</choiceB>
+												<choiceC>
+																this is choice c
+												</choiceC>
+												<choiceD>
+																this is choice d
+												</choiceD>
+												<choiceE>
+																this is choice e
+												</choiceE>
+								</question>
+								
+								<question id='2'>
+												<questionText>
+																this is second question of english
+												</questionText>
+												<choiceA>
+																2this is choice a
+												</choiceA>
+												<choiceB>
+																2this is choice b
+												</choiceB>
+												<choiceC>
+																2this is choice c
+												</choiceC>
+												<choiceD>
+																2this is choice d
+												</choiceD>
+												<choiceE>
+																2this is choice e
+												</choiceE>
+								</question>
+				</english>
+</questions>
