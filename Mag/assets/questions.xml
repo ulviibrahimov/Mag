@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Dec 19 01:31:12 CST 2013 -->
+<questions>
+				<russian>
+								<question>
+												<questionText>Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>a</correctAnswer>
+												<image/>
+								</question>
+								
+								<question>
+												<questionText>Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>b</correctAnswer>
+												<image/>
+								</question>
+				</russian>
+				
+				<english>
+								<question>
+												<questionText>First question of english</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>c</correctAnswer>
+												<image/>
+								</question>
+								
+								<question>
+												<questionText>Second question of english</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>d</correctAnswer>
+												<image/>
+								</question>
+				</english>
+</questions>
