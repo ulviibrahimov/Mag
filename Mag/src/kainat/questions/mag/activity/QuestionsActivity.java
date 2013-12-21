@@ -7,22 +7,27 @@ import kainat.questions.mag.R;
 import kainat.questions.mag.controller.ParseQuestions;
 import kainat.questions.mag.model.Question;
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class QuestionsActivity extends Activity {
-
+	List<Question> questionL= new ArrayList<Question>();
+	Integer questionIndex=0;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_questions);
 		ParseQuestions test=new ParseQuestions(this.getApplicationContext());
-		List<Question> questionL= new ArrayList<Question>();
 		questionL=test.questions("questions.xml");
 		this.displayQuestion(questionL.get(0), 0);
-		
+		addListenerOnButtonPrev();
+		addListenerOnButtonNext();
 	}
 
 	@Override
@@ -55,4 +60,45 @@ public class QuestionsActivity extends Activity {
         eButton.setText(question.getChoiceE());
 	}
 
+	public void addListenerOnButtonPrev() {
+		 
+		Button prevButton = (Button) findViewById(R.id.prevbutton);
+ 
+		prevButton.setOnClickListener(new OnClickListener() {
+ 
+			@Override
+			public void onClick(View arg0) {
+				if(questionIndex>0){
+					questionIndex--;
+				}
+				else if (questionIndex==0){
+					questionIndex=questionL.size()-1;
+				}
+				displayQuestion(questionL.get(questionIndex),questionIndex);
+			}
+ 
+		});
+ 
+	}	
+	
+	public void addListenerOnButtonNext() {
+		 
+		Button prevButton = (Button) findViewById(R.id.nextbutton);
+ 
+		prevButton.setOnClickListener(new OnClickListener() {
+ 
+			@Override
+			public void onClick(View arg0) {
+				if(questionIndex<questionL.size()-1){
+					questionIndex++;
+				}
+				else if (questionIndex==questionL.size()-1){
+					questionIndex=0;
+				}
+				displayQuestion(questionL.get(questionIndex),questionIndex);
+			}
+ 
+		});
+ 
+	}	
 }
