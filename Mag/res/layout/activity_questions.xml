@@ -4,14 +4,6 @@
     android:layout_height="fill_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp" >
-
-    <Button
-        android:id="@+id/prevbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="@string/prev" />
     	
 
     <Button
@@ -98,6 +90,16 @@
         android:layout_alignLeft="@+id/prevbutton"
         android:layout_alignRight="@+id/nextbutton"
         android:layout_below="@+id/prevbutton"
-        android:src="@drawable/test1" />
+        android:scaleType="fitXY"
+    	android:adjustViewBounds="true"
+        android:src="@drawable/kainat" />
+
+    <Button
+        android:id="@+id/prevbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/prev" />
 
 </RelativeLayout>

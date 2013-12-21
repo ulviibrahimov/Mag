@@ -25,12 +25,12 @@
 								</question>
 								
 								<question>
-												<questionText>Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.</questionText>
-												<choiceA>this is choice a</choiceA>
-												<choiceB>this is choice b</choiceB>
-												<choiceC>this is choice c</choiceC>
-												<choiceD>this is choice d</choiceD>
-												<choiceE>this is choice e</choiceE>
+												<questionText>Мaльчики пошли ____.</questionText>
+												<choiceA>на стадиoне</choiceA>
+												<choiceB>в стадиoн</choiceB>
+												<choiceC>на стадиoн</choiceC>
+												<choiceD>в стадиoнe</choiceD>
+												<choiceE>в стадиoнy</choiceE>
 												<correctAnswer>b</correctAnswer>
 												<image/>
 								</question>
