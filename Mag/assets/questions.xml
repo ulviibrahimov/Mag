@@ -2,6 +2,52 @@
 
 <!-- New document created with EditiX at Thu Dec 19 01:31:12 CST 2013 -->
 <questions>
+    			<logic>
+								<question>
+												<questionText>Bu mentiqli sualdi?</questionText>
+												<choiceA>he</choiceA>
+												<choiceB>yox</choiceB>
+												<choiceC>yo</choiceC>
+												<choiceD>neem</choiceD>
+												<choiceE>belke de</choiceE>
+												<correctAnswer>e</correctAnswer>
+												<image/>
+								</question>
+								
+								<question>
+												<questionText>bes bu?</questionText>
+												<choiceA>bu mutleq</choiceA>
+												<choiceB>belke de he</choiceB>
+												<choiceC>ola biler</choiceC>
+												<choiceD>bilmirem</choiceD>
+												<choiceE>sence?</choiceE>
+												<correctAnswer>d</correctAnswer>
+												<image/>
+								</question>
+				</logic>
+				<english>
+								<question>
+												<questionText>First question of english</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>c</correctAnswer>
+												<image/>
+								</question>
+								
+								<question>
+												<questionText>Second question of english</questionText>
+												<choiceA>this is choice a</choiceA>
+												<choiceB>this is choice b</choiceB>
+												<choiceC>this is choice c</choiceC>
+												<choiceD>this is choice d</choiceD>
+												<choiceE>this is choice e</choiceE>
+												<correctAnswer>d</correctAnswer>
+												<image/>
+								</question>
+				</english>
 				<russian>
 								<question>
 												<questionText>Во дни сомнений, во дни тягостных раздумий о судьбах моей родины.</questionText>
@@ -21086,28 +21132,30 @@
 								</question>
 								
 				</russian>
-				
-				<english>
+				<french>
 								<question>
-												<questionText>First question of english</questionText>
-												<choiceA>this is choice a</choiceA>
-												<choiceB>this is choice b</choiceB>
-												<choiceC>this is choice c</choiceC>
-												<choiceD>this is choice d</choiceD>
-												<choiceE>this is choice e</choiceE>
-												<correctAnswer>c</correctAnswer>
+												<questionText>Vous l'apprentissage du français?</questionText>
+												<choiceA>oui</choiceA>
+												<choiceB>aucun</choiceB>
+												<choiceC>enough french</choiceC>
+												<choiceD>no more french vocab</choiceD>
+												<choiceE>fuck french</choiceE>
+												<correctAnswer>b</correctAnswer>
 												<image/>
 								</question>
 								
 								<question>
-												<questionText>Second question of english</questionText>
-												<choiceA>this is choice a</choiceA>
-												<choiceB>this is choice b</choiceB>
-												<choiceC>this is choice c</choiceC>
-												<choiceD>this is choice d</choiceD>
-												<choiceE>this is choice e</choiceE>
-												<correctAnswer>d</correctAnswer>
+												<questionText>dont know french</questionText>
+												<choiceA>dont wanna use google translate</choiceA>
+												<choiceB>cmon</choiceB>
+												<choiceC>cant do that</choiceC>
+												<choiceD>no time</choiceD>
+												<choiceE>woop</choiceE>
+												<correctAnswer>a</correctAnswer>
 												<image/>
 								</question>
-				</english>
+				</french>
+				
+				
+				
 </questions>

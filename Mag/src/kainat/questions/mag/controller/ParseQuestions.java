@@ -125,7 +125,7 @@ public class ParseQuestions extends DefaultHandler{
 		    	 questionType="logic";  
 		     }  
 		     if (frenchTag.equals("open")) {  
-		    	 questionType="english";  
+		    	 questionType="french";  
 		     }  
 		     
 		     if(questionTag.equals("open")){

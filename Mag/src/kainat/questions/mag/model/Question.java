@@ -1,6 +1,5 @@
-/**
- * 
- */
+
+
 package kainat.questions.mag.model;
 
 /**
